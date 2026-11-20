@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "B-Net Billing",
+    "slug": "bnet-billing",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "bnetbilling",
+    "splash": {
+      "backgroundColor": "#f6f8fb"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.thebathan.bnetbilling"
+    },
+    "android": {
+      "package": "com.thebathan.bnetbilling",
+      "adaptiveIcon": {
+        "backgroundColor": "#0f766e"
+      },
+      "permissions": ["CAMERA", "READ_MEDIA_IMAGES"]
+    },
+    "extra": {
+      "apiBaseUrl": "https://bnetbilling.thebathan.com"
+    }
+  }
+}
